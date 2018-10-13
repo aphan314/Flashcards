@@ -5,7 +5,7 @@ Flash Cards allows users to input questions and answers. On the tap of the quest
 
 ### App Walk-though
 
-<img src="http://g.recordit.co/B2kCQvcwHO.gif" width=200><br>
+<img src="http://g.recordit.co/B2kCQvcwHO.gif" width=500><br>
 
 ## Required
 - [x] Create New Project in Xcode
