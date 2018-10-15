@@ -3,7 +3,7 @@
 ### App Description
 Flash Cards allows users to input questions and answers. On the tap of the question label, the screen will show the answer.
 
-### App Walk-though
+### App Walk-through
 
 <img src="http://g.recordit.co/B2kCQvcwHO.gif" width=500><br>
 
@@ -13,6 +13,7 @@ Flash Cards allows users to input questions and answers. On the tap of the quest
 - [x] Add a view for the back side of the flashcard to display the answer
 - [x] Build in logic to show the answer side when the card is tapped
 - [x] Push code to GitHub
+
 ## Optional
 - [ ] Toggle the flashcard between the question side and the answer side
 - [ ] Style the question and answer side of the card to better distinguish between the two sides
