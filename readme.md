@@ -1,7 +1,9 @@
-## Flash Cards
+## Flash Cards App
 
 ### App Description
-Flash Cards allows users to input questions and answers. On the tap of the question label, the screen will show the answer.
+Flash Cards App allows users to input questions and answers. On the tap of the question label, the screen will show the answer. Optional features will be implemented soon in future versions.
+
+With the help from CodePath, Flash Cards App was developed using Xcode and code was written in Swift.
 
 ### App Walk-through
 
