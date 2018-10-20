@@ -44,12 +44,43 @@
                                     <outletCollection property="gestureRecognizers" destination="wLa-bS-3ZE" appends="YES" id="c4x-Y8-adh"/>
                                 </connections>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BfK-kG-bSd">
+                                <rect key="frame" x="124" y="439" width="150" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <state key="normal" title="Rio de Janeiro"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="h1E-rH-QZA" appends="YES" id="jml-jk-4yn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cvl-4n-Vv7">
+                                <rect key="frame" x="124" y="523" width="150" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <state key="normal" title="Brasilia"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="uqu-LI-4yU" appends="YES" id="oZ7-6T-G9M"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zeX-fL-VwE">
+                                <rect key="frame" x="124" y="602" width="150" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <state key="normal" title="Sao Paulo"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="F5p-Bw-NEV" appends="YES" id="EUX-xl-Y5V"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="backLabel" destination="lOt-3j-W7R" id="o0g-DV-Jmf"/>
+                        <outlet property="btnOptionOne" destination="BfK-kG-bSd" id="nh0-24-GVD"/>
+                        <outlet property="btnOptionThree" destination="zeX-fL-VwE" id="Gx3-o4-ZsZ"/>
+                        <outlet property="btnOptionTwo" destination="cvl-4n-Vv7" id="VlG-Jg-Rxk"/>
+                        <outlet property="card" destination="9Cf-f8-W3A" id="yrL-k6-LO9"/>
                         <outlet property="frontLabel" destination="fMc-zt-pLq" id="UKa-tV-gCh"/>
                     </connections>
                 </viewController>
@@ -57,6 +88,21 @@
                 <tapGestureRecognizer id="wLa-bS-3ZE">
                     <connections>
                         <action selector="didTapOnFlashcard:" destination="BYZ-38-t0r" id="jUP-wy-pfI"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="h1E-rH-QZA">
+                    <connections>
+                        <action selector="didTapOnOptionOne:" destination="BYZ-38-t0r" id="Yfd-dF-VaV"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="uqu-LI-4yU">
+                    <connections>
+                        <action selector="didTapOnOptionTwo:" destination="BYZ-38-t0r" id="6MS-xe-sXJ"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="F5p-Bw-NEV">
+                    <connections>
+                        <action selector="didTapOnOptionThree:" destination="BYZ-38-t0r" id="jd4-rk-BRE"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
