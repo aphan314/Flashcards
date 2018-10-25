@@ -7,7 +7,7 @@ With the help from CodePath, Flash Cards App was developed using Xcode and code 
 
 ### App Walk-through
 
-<img src="http://g.recordit.co/B2kCQvcwHO.gif" width=500><br>
+<img src="http://g.recordit.co/x8kL66j0Hc.gif" width=600><br>
 
 ## Required
 - [x] Create New Project in Xcode
@@ -17,6 +17,6 @@ With the help from CodePath, Flash Cards App was developed using Xcode and code 
 - [x] Push code to GitHub
 
 ## Optional
-- [ ] Toggle the flashcard between the question side and the answer side
-- [ ] Style the question and answer side of the card to better distinguish between the two sides
-- [ ] Add selectable multiple choice answers beneath the card
+- [X] Toggle the flashcard between the question side and the answer side
+- [X] Style the question and answer side of the card to better distinguish between the two sides
+- [X] Add selectable multiple choice answers beneath the card
