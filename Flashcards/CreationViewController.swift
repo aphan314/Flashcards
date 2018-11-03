@@ -16,9 +16,17 @@ class CreationViewController: UIViewController {
     
     @IBOutlet weak var answerTextField: UITextField!
     
+    @IBOutlet weak var choiceOne: UITextField!
+    
+    @IBOutlet weak var choiceTwo: UITextField!
+    
+    var initialQuestion: String?
+    var initialAnswer: String?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        questionTextField.text = initialQuestion
+        answerTextField.text = initialAnswer
         // Do any additional setup after loading the view.
     }
     
@@ -39,7 +47,19 @@ class CreationViewController: UIViewController {
     @IBAction func didTapOnDone(_ sender: Any) {
         let questionText = questionTextField.text
         let answerText = answerTextField.text
-        flashcardsController.updateFlashcard(question: questionText!, answer: answerText!)
+        let choice1 = choiceOne.text
+        let choice2 = choiceTwo.text
+        
+        if questionText == nil || answerText == nil || questionText!.isEmpty || answerText!.isEmpty{
+            let alert = UIAlertController(title: "Missing Text", message: "You need to enter both a question and an answer", preferredStyle: .alert)
+            let okAction = UIAlertAction(title: "Ok", style: .default)
+            alert.addAction(okAction)
+            present(alert, animated: true)
+        }
+        else{
+            flashcardsController.updateFlashcard(question: questionText!, answer: answerText!, choiceOne: choice1!, choiceTwo: choice2!)
+        }
+        
         dismiss(animated: true)
     }
     
