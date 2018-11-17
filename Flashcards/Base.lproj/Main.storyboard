@@ -53,7 +53,7 @@
                                 </connections>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BfK-kG-bSd">
-                                <rect key="frame" x="124" y="466" width="150" height="45"/>
+                                <rect key="frame" x="124" y="383" width="150" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
                                 <state key="normal" title="Rio de Janeiro"/>
@@ -61,17 +61,8 @@
                                     <outletCollection property="gestureRecognizers" destination="h1E-rH-QZA" appends="YES" id="jml-jk-4yn"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zeX-fL-VwE">
-                                <rect key="frame" x="124" y="602" width="150" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                                <state key="normal" title="Sao Paulo"/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="F5p-Bw-NEV" appends="YES" id="EUX-xl-Y5V"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o54-3u-WZ6">
-                                <rect key="frame" x="184" y="385" width="30" height="30"/>
+                                <rect key="frame" x="184" y="617" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="+"/>
                                 <connections>
@@ -79,12 +70,37 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cvl-4n-Vv7">
-                                <rect key="frame" x="124" y="534" width="150" height="45"/>
+                                <rect key="frame" x="124" y="436" width="150" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
                                 <state key="normal" title="Brasilia"/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="uqu-LI-4yU" appends="YES" id="oZ7-6T-G9M"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U1a-hH-4cb">
+                                <rect key="frame" x="84" y="617" width="31" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Prev"/>
+                                <connections>
+                                    <action selector="didTapOnPrev:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PnT-fG-4n0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mKR-CO-D2r">
+                                <rect key="frame" x="283" y="617" width="32" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <action selector="didTapOnNext:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CVz-PM-0Rv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zeX-fL-VwE">
+                                <rect key="frame" x="124" y="489" width="150" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <state key="normal" title="Sao Paulo"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="F5p-Bw-NEV" appends="YES" id="EUX-xl-Y5V"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -98,6 +114,8 @@
                         <outlet property="btnOptionTwo" destination="cvl-4n-Vv7" id="VlG-Jg-Rxk"/>
                         <outlet property="card" destination="9Cf-f8-W3A" id="yrL-k6-LO9"/>
                         <outlet property="frontLabel" destination="fMc-zt-pLq" id="UKa-tV-gCh"/>
+                        <outlet property="nextButton" destination="mKR-CO-D2r" id="NF6-IS-jfB"/>
+                        <outlet property="prevButton" destination="U1a-hH-4cb" id="WP2-gY-IrU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
