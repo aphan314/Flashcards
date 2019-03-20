@@ -5,7 +5,7 @@ Flash Cards App allows users to input questions and answers. On the tap of the q
 
 With the help from CodePath, Flash Cards App was developed using Xcode and code was written in Swift.
 
-### App Walk-though
+### App Walk-through
 <img src="http://g.recordit.co/HaAaG3BH4g.gif" width=600><br>
 
 ## Required
@@ -27,7 +27,7 @@ Flash Cards App allows users to input questions and answers. On the tap of the q
 
 With the help from CodePath, Flash Cards App was developed using Xcode and code was written in Swift.
 
-### App Walk-though
+### App Walk-through
 
 <img src="http://g.recordit.co/LYsBL1tseB.gif" width=600><br>
 
@@ -47,7 +47,7 @@ Flash Cards App allows users to input questions and answers. On the tap of the q
 
 With the help from CodePath, Flash Cards App was developed using Xcode and code was written in Swift.
 
-### App Walk-though
+### App Walk-through
 <img src="http://g.recordit.co/OS1kmNqqvc.gif" width=600><br>
 
 ## Required
